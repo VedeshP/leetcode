@@ -9,5 +9,8 @@
 #define PB push_back
 #define MP make_pair
 
-#define fr(i, a, b) for (ll i = a; i < b; i++)
-#define _fr(i, a, b) for (ll i = a; i > b; i--)
+#define fr(i, a, b) for (int i = a; i < b; i++)
+#define _fr(i, a, b) for (int i = a; i > b; i--)
+
+// #define fr(i, a, b) for (ll i = a; i < b; i++)
+// #define _fr(i, a, b) for (ll i = a; i > b; i--)
