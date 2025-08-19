@@ -8,6 +8,9 @@
 #define S second
 #define PB push_back
 #define MP make_pair
+#define sz(x) (ll)(x).size()
+#define srt(a) sort((a).begin(), (a).end())
+ll MOD = 1000000007;
 
 #define fr(i, a, b) for (int i = a; i < b; i++)
 #define _fr(i, a, b) for (int i = a; i > b; i--)
