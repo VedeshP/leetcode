@@ -9,14 +9,18 @@
 #define PB push_back
 #define MP make_pair
 #define sz(x) (ll)(x).size()
-#define srt(a) sort((a).begin(), (a).end())
-ll MOD = 1000000007;
+#define srt(a) sort((a).begin(),(a).end())
+#define revsrt(a) sort((a).rbegin(), (a).rend())
+#define all(x) (x).begin(), (x).end()
+#define rall(x) (x).rbegin(), (x).rend()
+#define setbits(x) __builtin_popcountll(x)
+ll MOD=1000000007;
 
-#define fr(i, a, b) for (int i = a; i < b; i++)
-#define _fr(i, a, b) for (int i = a; i > b; i--)
+#define fr(i, a, b) for (ll i = a; i < b; i++)
+#define _fr(i, a, b) for (ll i = a; i > b; i--)
 
-// #define fr(i, a, b) for (ll i = a; i < b; i++)
-// #define _fr(i, a, b) for (ll i = a; i > b; i--)
+#define out_NO cout << "NO" << '\n';
+#define out_YES cout << "YES" << '\n';
 
 // #include <iostream>
 // #include <vector>
@@ -37,7 +41,7 @@ ll MOD = 1000000007;
 // #include <map>
 // #include <set>
 
-// using namespace std;
+using namespace std;
 
 // int gcd(int a,int b)
 // {
